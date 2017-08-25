@@ -16,7 +16,7 @@ def get_password_strength(password):
               r'[A-Z]', 
               r'\d',    
               r'\W', 
-              r'^(?!\S*(\S)\1{3,})',
+              r'^(?!\S*(\S)\1{1,})',
               r'\S{5,}',
               r'\S{8,}',
               r'\S{10,}']
