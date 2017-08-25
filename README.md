@@ -22,7 +22,7 @@ You may build your own list of bad passwords. In this case you have to specify f
 
 Your bad passwords must be stored in *.txt file, each password on a new line.
 
-You may not user this check at all: do no download ```blacklist.txt``` or not prepare own blacklist. The scripts will skip this check,
+You may not user this check at all: do no download ```blacklist.txt``` or not prepare own blacklist. The script will skip this check,
 but your password will not be rated higher than 8 points.
 
 # Example of Script Launch
