@@ -18,7 +18,7 @@ To run the script clone this repo on your machine and run ```python password_str
 By default script uses list of prohibited passwords stored in ```blacklist.txt```.
 
 You may build your own list of bad passwords. In this case you have to specify filepath as an additional agrument when call script:
-```C:\projects\devman\6_password_strength\user_bad_passwords.txt```
+```python password_strength.py C:\projects\devman\6_password_strength\user_bad_passwords.txt```
 
 Your bad passwords must be stored in *.txt file, each password on a new line.
 
