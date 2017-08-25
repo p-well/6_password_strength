@@ -39,3 +39,4 @@ if __name__ == '__main__':
     password = getpass.getpass("\nType password to check its strength: ")
     print("\nYour password is rated at {} point(s) on a 10-point scale"\
     .format(get_password_strength(password)))
+    
